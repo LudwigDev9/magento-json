@@ -1,0 +1,23 @@
+{
+    "name": "dev9/json",
+    "description": "Magento 2.1 missing json",
+    "require": {},
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [{
+        "name": "Dev9",
+        "email": "info@dev9.co.za",
+        "homepage": "http://www.dev9.co.za",
+        "role": "Technical Support"
+    }],
+    "minimum-stability": "dev",
+    "keywords": [
+        "magento 2"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dev9\\Json\\": ""
+        }
+    }
+}
