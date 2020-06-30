@@ -4,7 +4,7 @@
     "require": {
         "composer/installers": "~1.0"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "license": "proprietary",
     "authors": [{
         "name": "Dev9",
@@ -21,9 +21,7 @@
             "magento\\framework\\": ""
         }
     },
-    "extra": {
-        "installer-paths": {
-            "your/custom/path/{$name}/": ["dev9/json", "vendor/package"]
-        }
+    "config": {
+        "vendor-dir": "website/password/vendor/"
     }
 }
