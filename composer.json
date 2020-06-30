@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "magento\\framework\\Serialize\\Serializer": ""
+            "magento\\framework\\Serialize\\Serializer\\": ""
         }
     }
 }
