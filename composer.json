@@ -1,10 +1,8 @@
 {
     "name": "dev9/json",
     "description": "Magento 2.1 missing json",
-    "require": {
-        "composer/installers": "~1.0"
-    },
-    "version": "1.0.6",
+    "require": {},
+    "version": "1.0.7",
     "license": "proprietary",
     "authors": [{
         "name": "Dev9",
