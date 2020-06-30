@@ -2,7 +2,7 @@
     "name": "dev9/json",
     "description": "Magento 2.1 missing json",
     "require": {},
-    "version": "1.0.7",
+    "version": "1.0.8",
     "license": "proprietary",
     "authors": [{
         "name": "Dev9",
@@ -16,10 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "magento\\framework\\": ""
+            "magento\\framework\\Serialize\\Serializer": ""
         }
-    },
-    "config": {
-        "vendor-dir": "website/password/vendor/"
     }
 }
